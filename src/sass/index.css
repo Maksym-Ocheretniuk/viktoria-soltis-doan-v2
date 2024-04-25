@@ -1,5 +1,6 @@
 @charset "UTF-8";
-@import '~node_modules/modern-normalize/modern-normalize.css'; /* 
+@import '~node_modules/modern-normalize/modern-normalize.css';
+/* 
 основний колір тексту
 колір тексту параграфів
 колір наведення-акценту
@@ -287,27 +288,31 @@ li.active-page-item:hover, li.active-page-item:focus {
 }
 
 .header-text__description {
-  font-family: "Permanent Marker", Verdana, sans-serif;
+  font-family: "Caveat", Verdana, sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 11px;
-  line-height: 1.4545454545;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.25;
+  letter-spacing: 0.05em;
   text-align: center;
   color: var(--text-header-description-color);
 }
 @media screen and (min-width: 768px) {
   .header-text__description {
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 @media screen and (min-width: 1200px) {
   .header-text__description {
-    font-size: 16px;
+    font-size: 21px;
   }
 }
 
 .header-img {
   width: 75px;
+}
+.header-img:hover, .header-img:focus {
+  content: url("../images/header/img-bird-wakeup@2x.png");
 }
 @media screen and (min-width: 768px) {
   .header-img {
@@ -1105,7 +1110,6 @@ html {
   font-size: 30px;
   line-height: 1.15;
   text-align: center;
-  text-transform: uppercase;
   margin-bottom: 25px;
   color: #36c25d;
 }
@@ -1752,13 +1756,6 @@ html {
   letter-spacing: 0.01em;
   color: rgba(65, 61, 61, 0.5);
 }
-.contact__form-message:-ms-input-placeholder {
-  font-family: inherit;
-  font-size: 15px;
-  line-height: 1.1666666667;
-  letter-spacing: 0.01em;
-  color: rgba(65, 61, 61, 0.5);
-}
 .contact__form-message::placeholder {
   font-family: inherit;
   font-size: 15px;
@@ -1770,18 +1767,12 @@ html {
   .contact__form-message::-moz-placeholder {
     font-size: 18px;
   }
-  .contact__form-message:-ms-input-placeholder {
-    font-size: 18px;
-  }
   .contact__form-message::placeholder {
     font-size: 18px;
   }
 }
 @media screen and (min-width: 1200px) {
   .contact__form-message::-moz-placeholder {
-    font-size: 20px;
-  }
-  .contact__form-message:-ms-input-placeholder {
     font-size: 20px;
   }
   .contact__form-message::placeholder {
