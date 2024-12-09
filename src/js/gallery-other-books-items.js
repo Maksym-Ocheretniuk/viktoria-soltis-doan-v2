@@ -36,6 +36,16 @@ import otherBooks_18_prev from '../images/other-books/other-books-18-preview@1x.
 import otherBooks_18_orig from '../images/other-books/other-books-18-original@1x.webp';
 import otherBooks_19_prev from '../images/other-books/other-books-19-preview@1x.webp';
 import otherBooks_19_orig from '../images/other-books/other-books-19-original@1x.webp';
+import otherBooks_20_prev from '../images/other-books/other-books-20-preview@1x.webp';
+import otherBooks_20_orig from '../images/other-books/other-books-20-original@1x.webp';
+import otherBooks_21_prev from '../images/other-books/other-books-21-preview@1x.webp';
+import otherBooks_21_orig from '../images/other-books/other-books-21-original@1x.webp';
+import otherBooks_22_prev from '../images/other-books/other-books-22-preview@1x.webp';
+import otherBooks_22_orig from '../images/other-books/other-books-22-original@1x.webp';
+import otherBooks_23_prev from '../images/other-books/other-books-23-preview@1x.webp';
+import otherBooks_23_orig from '../images/other-books/other-books-23-original@1x.webp';
+import otherBooks_24_prev from '../images/other-books/other-books-24-preview@1x.webp';
+import otherBooks_24_orig from '../images/other-books/other-books-24-original@1x.webp';
 
 export const otherBooksGalleryItems = [
   {
@@ -131,6 +141,31 @@ export const otherBooksGalleryItems = [
   {
     preview: otherBooks_19_prev,
     original: otherBooks_19_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_20_prev,
+    original: otherBooks_20_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_21_prev,
+    original: otherBooks_21_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_22_prev,
+    original: otherBooks_22_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_23_prev,
+    original: otherBooks_23_orig,
+    description: 'This is my book in another language',
+  },
+  {
+    preview: otherBooks_24_prev,
+    original: otherBooks_24_orig,
     description: 'This is my book in another language',
   },
 ];

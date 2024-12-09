@@ -58,6 +58,18 @@ import Illustration_29_prev from '../images/illustrations/Illustration-29_previe
 import Illustration_29_orig from '../images/illustrations/Illustration-29_original@1x.webp';
 import Illustration_30_prev from '../images/illustrations/Illustration-30_preview@1x.webp';
 import Illustration_30_orig from '../images/illustrations/Illustration-30_original@1x.webp';
+import Illustration_31_prev from '../images/illustrations/Illustration-31_preview@1x.webp';
+import Illustration_31_orig from '../images/illustrations/Illustration-31_original@1x.webp';
+import Illustration_32_prev from '../images/illustrations/Illustration-32_preview@1x.webp';
+import Illustration_32_orig from '../images/illustrations/Illustration-32_original@1x.webp';
+import Illustration_33_prev from '../images/illustrations/Illustration-33_preview@1x.webp';
+import Illustration_33_orig from '../images/illustrations/Illustration-33_original@1x.webp';
+import Illustration_34_prev from '../images/illustrations/Illustration-34_preview@1x.webp';
+import Illustration_34_orig from '../images/illustrations/Illustration-34_original@1x.webp';
+import Illustration_35_prev from '../images/illustrations/Illustration-35_preview@1x.webp';
+import Illustration_35_orig from '../images/illustrations/Illustration-35_original@1x.webp';
+import Illustration_36_prev from '../images/illustrations/Illustration-36_preview@1x.webp';
+import Illustration_36_orig from '../images/illustrations/Illustration-36_original@1x.webp';
 
 export const illustrationsGalleryItems = [
   {
@@ -222,5 +234,35 @@ export const illustrationsGalleryItems = [
     preview: Illustration_30_prev,
     original: Illustration_30_orig,
     description: "Illustration to book 'We love our glasses'",
+  },
+  {
+    preview: Illustration_31_prev,
+    original: Illustration_31_orig,
+    description: "Illustration to children's book 'The house spirit in the Chok-Chok Network', Old Lion Publishing House",
+  },
+  {
+    preview: Illustration_32_prev,
+    original: Illustration_32_orig,
+    description: "Illustration to children's book 'The house spirit in the Chok-Chok Network', Old Lion Publishing House",
+  },
+  {
+    preview: Illustration_33_prev,
+    original: Illustration_33_orig,
+    description: "Illustration to children's book 'Planet Englishi', Mandrivets Publishing House",
+  },
+  {
+    preview: Illustration_34_prev,
+    original: Illustration_34_orig,
+    description: "Illustration to children's book 'Planet Englishi', Mandrivets Publishing House",
+  },
+  {
+    preview: Illustration_35_prev,
+    original: Illustration_35_orig,
+    description: "Illustration to children's book 'Hotel in the Castle on the Edge', Old Lion Publishing House",
+  },
+  {
+    preview: Illustration_36_prev,
+    original: Illustration_36_orig,
+    description: "Illustration to children's book 'Hotel in the Castle on the Edge', Old Lion Publishing House",
   },
 ];
